@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    
+}
+
+header {
+    background-color: #0c21e6;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h2 {
+    margin-bottom: 5px;
+    font-size: 36px;
+}
+
+
+.right ul {
+    display: flex;
+    gap: 34px;
+    /* color: white; */
+
+}
+
+.right ul li {
+    list-style: none;
+}
+
+.right ul  a:hover{
+    font-weight: bold;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.About-profile{
+    max-width: 600px;
+}
+
+.About-profile h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.About-profile p{
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.skills {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+}
+
+.skills h2 {
+    text-align: center;
+    color: #0c0c0c;
+}
+
+.skillcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.skills {
+    text-align: center;
+    padding: 10px;
+    flex: 0 0 auto;
+}
+
+.skill img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.projects,
+.recommendations
+{
+    font-family: sans-serif;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid rgb(7, 7, 7);
+    border-radius: 8px;
+}
+
+.projects h2,
+.recommendations h2
+{
+    text-align: center;
+    color: #0d0d0e;
+}
+
+.recommendation-form{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow:  0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+input[type="text"],textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+textarea{
+    height: 100px;
+    resize: none;
+}
+
+button{
+    padding: 10px;
+    color: aliceblue;
+    background-color: #0c0c0c;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4B0082;
+    color: #0f0f0f;
+}

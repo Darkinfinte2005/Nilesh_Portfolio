@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=" />
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h2>Nilesh Samal</h2>
+        <p>Full Stack Developer</p>
+        <p class="email">📧 abcd09786@gmail.com <br /></p>
+        <p class="phone no.">📞 +911234567890</p>
+      </div>
+      <div class="right">
+        <ul>
+          <a style="color: white" href="about-you">About You</a>
+          <a style="color: white" href="skills">Skills</a>
+          <a style="color: white" href="projects">Projects</a>
+          <a style="color: white" href="recommendations">Recommendation</a>
+        </ul>
+      </div>
+    </header>
+
+    <section id="about you section" class="aboutyou">
+      <div class="profile">
+        <img class="profile-image" src="profile.jpg" alt="nilesh Samal" />
+        <div class="About-Profile">
+          <h2>Hi , I am Nilesh Samal</h2>
+          <p>
+            I am a full stack developer with one year of experience in web
+            development.I have also build project like ecommerce Website and face detection attendance system.Eager to learn and adapt , with a passion for build web applications.Also my problem-solving skill and a commitment to continuous improvement and collaborative.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div id="skills" class="skills">
+      <h2>Skills</h2>
+      <br>
+      <div class="skillcontainer">
+        <div class="skill">
+          <img src="HTML.png" alt="something wen wrong." />
+          <p>HTML</p>
+          <p>1 year of experience</p>
+        </div>
+        <div class="skill">
+          <img src="CSS.png" alt="something wen wrong." />
+          <p>CSS</p>
+          <p>1 year of experience</p>
+        </div>
+        <div class="skill">
+          <img src="JAVA SCRIPT.png" alt="something wen wrong." />
+          <p>JAVASCRIPT</p>
+          <p>1 year of experience</p>
+        </div>
+        <div class="skill">
+          <img src="JAVA.png" alt="something wen wrong." />
+          <p>JAVA</p>
+          <p>1 year of experience</p>
+        </div>
+        <div class="skill">
+          <img src="c.webp" alt="something went wrong">
+          <p>C</p>
+          <p>1 year of experience</p>
+        </div>
+      </div>
+    </div>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>E-commerce Website :</strong>
+          <br />
+          Create a virtual store where customers can buy products with different
+          categories of fashion , toys & games , food & Beverages and Sports &
+          fitness. And also there is design for shopping cart for customers by
+          which they can add products and then proceed using stripe for payment
+          with Upi,Credit/Debit card.
+        </li>
+        <li>
+          <strong>Face detection attendance System :</strong>
+          <br />
+          Here by using phython with libraries like OpenCV to handle the face
+          detection and recoginition aspects.mainly the system captures a
+          person's face from a camera, compares it to a database of know faces
+          and if a match found, it records their attendance in the system.
+        </li>
+      </ul>
+    </section>
+
+    <section id="recommendations" class="recommendations">
+      <h2>Recommendations</h2>
+      <p>
+        "nilesh's enthusiasm and willingness to dive into new technologies have been a major asset to our team.He picks up skills qucikly and demonstrates a positive attitude towards the challenges. His collaborative mindset and clear communication skill make him a great team player."
+      </p>
+
+      <br />
+      <p>
+        "nilesh is fast learner with a passion for problem-solving.Even as a beginner,her curiosity and determinations have set him apart. His ability to grasp new concepts and implement them with minimal guidance makes her a valueable addition to any project in a team."
+      </p>
+      <br>
+
+      <p>"nilesh is a very hardworking and deicated to his work always.He is very cooperative and also is a team player.He is always active and very displine person."</p>
+
+    </section>
+
+    <div class="recommendation-form" id="recommendation-form">
+      <h1>Leave a Recommendation</h1>
+      <form action="#" method="post">
+        <label for="name">Name optional</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Your name (optional)"
+        />
+        <label for="recommendation">Recommendation</label>
+        <textarea
+          name="recommendation"
+          id="recommendation"
+          placeholder="Your Recommendation"
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Nilesh Samal</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
